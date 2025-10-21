@@ -14,6 +14,7 @@ if ($nilai >= 0 && $nilai <= 10) {
 } elseif ($nilai >= 80 && $nilai <= 100) {
     echo "Nilai Huruf: A";
 } else {
+    echo "<br>";
     echo "Nilai yang anda cari TIDAK VALID!!!!";
 }
 ?>
